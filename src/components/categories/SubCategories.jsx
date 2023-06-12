@@ -11,8 +11,7 @@ const SubCategories = (props) => {
                         <div style={{'display':'flex','padding':'14px','alignItems':'center'}}>
                             <img src={subCategory.image} alt={subCategory.name} width={50} height={50} />
                             <br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            <h5>{subCategory['name']}</h5>
+                            <h5>    {subCategory['name']}</h5>
                             <br />
                         </div>
                     );

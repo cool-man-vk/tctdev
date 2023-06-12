@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import SubCategories from './SubCategories';
 
 export default class Category extends React.Component {
@@ -28,8 +28,7 @@ export default class Category extends React.Component {
                                 <div key={index} style={{'width':'100%' ,'display':'grid','gridTemplateColumns':'1fr 1fr'}}>
                                     <div style={{'width':'100%','display':'flex','alignItems':'center','justifyContent':'center','border':'1px solid black'}}>
                                         <img src={category['image']} alt={category.name} width={50} height={50} /><br/>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;
-                                        <h5>{category['name']}</h5>
+                                        <h5>    {category['name']}</h5>
                                         <br />
                                     </div>
                                     {/* Subcategories */}
